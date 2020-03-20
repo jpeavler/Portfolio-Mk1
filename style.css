@@ -2,5 +2,21 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    font: Veranda;
+    font-family: Veranda;
+}
+header{
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-style: solid;
+    border-color: red;
+    justify-content: space-between;
+}
+.header-name{
+    float: left;
+    font-size: 30px;
+}
+.menu{
+    float: right;
+    font-size: 20px;
 }
