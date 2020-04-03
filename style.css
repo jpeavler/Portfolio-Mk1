@@ -1,22 +1,122 @@
 body{
     text-align: center;
-    background-color: black;
-    color: white;
-    font-family: Veranda;
+    background-color: #153243;
+    color: #E6EFE9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: white;
-    color: black;
-    height: 30px;
+    display: flex;
+    background-color: #E8EEF2;
+    color: #387780;
     border-style: solid;
-    border-color: red;
+    border-color: #A9BCD0;
     justify-content: space-between;
 }
+a:link{
+     text-decoration: none;   
+}
+ul{
+    list-style-type: none;
+}
 .header-name{
+    grid-template-columns: auto;
     float: left;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 5px;
 }
 .menu{
-    float: right;
+    grid-template-columns: auto;
+    font-size: 25px;
+}
+.mi{
+    color: #387780;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.quote{
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact{
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.resume{
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.fun{
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
     font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.projects{
+    align-self: flex-end;
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.projectWrapper{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr 10fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr 10fr 1fr;
+    height : 300px;
+}
+.project{
+    border-style: solid;
+    border-color: #A9BCD0;
+    background-color: #E8EEF2;
+    color: #387780;
+}
+#p1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#p2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#p3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#p4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
